@@ -27,6 +27,7 @@ public class DemoController extends BaseController {
 	@RequestMapping("/print")
 	public String print() {
 		this.logger.info("进入 pring 方法");
+		System.out.println("test");
 		return "hello SpringBoot!";
 	}
 
